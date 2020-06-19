@@ -1,0 +1,21 @@
+{
+    "name": "vojtech/sachovnice-example",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vojtech Krupka",
+            "email": "vojtech.krupka99@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sachovnice\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
